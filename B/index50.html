@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASY WONDER- Luxury Travel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/x-icon" href="../IMG/EASY WONDER LOGO.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <img src="../IMG/EASY WONDER LOGO.png" alt="Logo" class="logo">
+        <div class="container">
+            <a class="navbar-brand" href="#">EASY WONDER</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinations">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tours">Tours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <img id="img-T" src="../IMG/map.jpg" class="hero-T" alt="Luxury Travel">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            
+            <h1 class="hero-title">Journey Beyond<br>The Ordinary</h1>
+            <br>
+            <div class="hero-subtitle">Curated Luxury Travel Experiences</div>
+            <p class="hero-description">Discover exclusive destinations and bespoke experiences crafted for the discerning traveler. Where every moment becomes an extraordinary memory.</p>
+            <a href="#destinations" class="btn cta-primary">Begin your Travel</a>
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Exceptional Destinations</div>
+                <h2 class="section-title">Curated Collections</h2>
+                <div class="decorative-line"></div>
+                <p class="section-description">Handpicked locations that transcend conventional travel. Each destination offers unparalleled luxury and cultural immersion.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="destination-card">
+                        <div class="card-img-wrapper">
+                            <img src="../IMG/paris.jpg" class="card-img-top" alt="Paris">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Paris</h5>
+                            <p class="card-text">Experience the epitome of elegance in the City of Light. Private museum tours, Michelin-starred dining, and exclusive access to haute couture fashion houses await the sophisticated traveler.</p>
+                            <a href="#" class="btn btn-discover">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="destination-card">
+                        <div class="card-img-wrapper">
+                            <img src="../IMG/santorini.jpg" class="card-img-top" alt="santonin">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">santonin</h5>
+                            <p class="card-text">Indulge in Aegean luxury with private villa accommodations, sunset yacht excursions, and intimate wine tastings at ancient vineyards overlooking the caldera's azure waters.</p>
+                            <a href="#" class="btn btn-discover">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="destination-card">
+                        <div class="card-img-wrapper">
+                            <img src="../IMG/J.jpg" class="card-img-top" alt="Tokyo">
+                            <div class="card-overlay"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Tokyo</h5>
+                            <p class="card-text">Immerse yourself in refined Japanese hospitality. From private tea ceremonies with master artisans to exclusive kaiseki experiences, discover the perfect harmony of tradition and innovation.</p>
+                            <a href="#" class="btn btn-discover">Discover More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section id="tours" class="tours-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Bespoke Experiences</div>
+                <h2 class="section-title">Signature Journeys</h2>
+                <div class="decorative-line"></div>
+                <p class="section-description">Meticulously designed itineraries that cater to the most discerning travelers, offering unparalleled access and extraordinary moments.</p>
+            </div>
+            <div class="accordion" id="toursAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#tour1">
+                            The Grand Alpine Expedition
+                        </button>
+                    </h2>
+                    <div id="tour1" class="accordion-collapse collapse show" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <div class="tour-meta">
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>14 Days</span>
+                                </div>
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Max 8 Guests</span>
+                                </div>
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-tag"></i>
+                                    <span>From $45,000</span>
+                                </div>
+                            </div>
+                            <p>Traverse the majestic peaks of Switzerland and France with private helicopter transfers, stays in exclusive mountain chalets, and guided expeditions led by world-renowned mountaineers. Includes helicopter skiing, private chef experiences, and wellness treatments at premier alpine spas.</p>
+                            <a href="#" class="view-details-link">
+                                View Complete Itinerary 
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour2">
+                            Mediterranean Journey in a yacht
+                        </button>
+                    </h2>
+                    <div id="tour2" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <div class="tour-meta">
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>10 Days</span>
+                                </div>
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Private Charter</span>
+                                </div>
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-tag"></i>
+                                    <span>From $85,000</span>
+                                </div>
+                            </div>
+                            <p>Sail the azure waters aboard a luxury superyacht, exploring hidden coves and exclusive coastal destinations from Monaco to Capri. Features a personal chef, sommelier, and concierge service, with access to private beach clubs and VIP events along the Riviera.</p>
+                            <a href="#" class="view-details-link">
+                                View Complete Itinerary 
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour3">
+                            Imperial Orient Discovery
+                        </button>
+                    </h2>
+                    <div id="tour3" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <div class="tour-meta">
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>18 Days</span>
+                                </div>
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Max 6 Guests</span>
+                                </div>
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-tag"></i>
+                                    <span>From $68,000</span>
+                                </div>
+                            </div>
+                            <p>Journey through Japan, China, and Thailand with unprecedented access to cultural treasures. Private viewings at imperial palaces, meditation sessions with Buddhist monks, and stays in heritage properties. Includes a private rail car journey and chartered flights between destinations.</p>
+                            <a href="#" class="view-details-link">
+                                View Complete Itinerary 
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tour4">
+                            African Safari Luxe
+                        </button>
+                    </h2>
+                    <div id="tour4" class="accordion-collapse collapse" data-bs-parent="#toursAccordion">
+                        <div class="accordion-body">
+                            <div class="tour-meta">
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>12 Days</span>
+                                </div>
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Max 4 Guests</span>
+                                </div>
+                                <div class="tour-meta-item">
+                                    <i class="fas fa-tag"></i>
+                                    <span>From $52,000</span>
+                                </div>
+                            </div>
+                            <p>Experience the wild beauty of Africa in ultimate luxury. Stay in exclusive tented camps, enjoy private game drives with expert rangers, and witness the Great Migration from your personal hot air balloon. Includes champagne bush dinners and conservation experiences with leading wildlife experts.</p>
+                            <a href="#" class="view-details-link">
+                                View Complete Itinerary 
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-subtitle">Let's Connect</div>
+                <h2 class="section-title">Begin Your Journey</h2>
+                <div class="decorative-line"></div>
+                <p class="section-description">Share your vision with us, and our luxury travel specialists will craft an extraordinary experience tailored exclusively for you.</p>
+            </div>
+            <div class="contact-form-wrapper">
+                <form>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="+1 (555) 000-0000">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="destination" class="form-label">Preferred Destination</label>
+                            <select class="form-select" id="destination" required>
+                                <option value="" selected>Select Your Destination</option>
+                                <option value="paris">Paris, France</option>
+                                <option value="santonin">santonin, Greece</option>
+                                <option value="tokyo">Tokyo, Japan</option>
+                                <option value="alpine">Alpine Expedition</option>
+                                <option value="mediterranean">Mediterranean Yacht</option>
+                                <option value="orient">Oriental Discovery</option>
+                                <option value="safari">African Safari</option>
+                                <option value="custom">Custom Itinerary</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="budget" class="form-label">Estimated Budget</label>
+                            <select class="form-select" id="budget">
+                                <option value="" selected>Select Budget Range</option>
+                                <option value="25-50k">$25,000 - $50,000</option>
+                                <option value="50-100k">$50,000 - $100,000</option>
+                                <option value="100-250k">$100,000 - $250,000</option>
+                                <option value="250k+">$250,000+</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <label for="message" class="form-label">Your Vision</label>
+                            <textarea class="form-control" id="message" rows="6" placeholder="Tell us about your dream journey, preferred travel dates, special occasions, or any specific requirements..." required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" class="btn btn-submit">
+                                Request Consultation
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <div class="footer-brand">EASY WONDER</div>
+                    <p class="footer-tagline">Where Luxury Meets Adventure</p>
+                </div>
+                <div class="col-lg-6 text-center text-lg-end">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://github.com/Achref-930" target="_blank" class="social-icon">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                © 2025 EASY WONDER Journeys. All Rights Reserved. | Crafted with Excellence
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Mouse tracking for custom cursor effect
+        document.addEventListener('mousemove', (e) => {
+            const x = (e.clientX / window.innerWidth) * 100;
+            const y = (e.clientY / window.innerHeight) * 100;
+            document.body.style.setProperty('--mouse-x', x + '%');
+            document.body.style.setProperty('--mouse-y', y + '%');
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    const navbarCollapse = document.querySelector('.navbar-collapse');
+                    if (navbarCollapse.classList.contains('show')) {
+                        navbarCollapse.classList.remove('show');
+                    }
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        let lastScroll = 0;
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+            
+            lastScroll = currentScroll;
+        });
+
+        // Parallax effect for hero
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const heroVideo = document.querySelector('.hero-T');
+            if (heroVideo) {
+                heroVideo.style.transform = `translate(-50%, -${50 + scrolled * 0.3}%)`;
+            }
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all cards and sections
+        document.querySelectorAll('.destination-card, .accordion-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+            observer.observe(el);
+        });
+
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const btn = document.querySelector('.btn-submit');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Processing...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                btn.innerHTML = '<i class="fas fa-check"></i> Message Sent!';
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                    e.target.reset();
+                }, 2000);
+            }, 1500);
+        });
+
+        // Add shimmer effect to cards on hover
+        document.querySelectorAll('.destination-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.classList.add('shimmer');
+            });
+            card.addEventListener('mouseleave', function() {
+                this.classList.remove('shimmer');
+            });
+        });
+    </script>
+</body>
+</html>
